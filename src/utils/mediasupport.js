@@ -6,6 +6,7 @@ const h264Profiles = {
   high: 100,
   422: 122,
   high10: 110,
+  'high 10': 110,
   444: 144,
   extended: 88,
   scalablebase: 83,
