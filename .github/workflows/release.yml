@@ -119,7 +119,7 @@ jobs:
 
       - name: Set up Docker Buildx
         id: buildx
-        uses: docker/setup-buildx-action@v3.3.0
+        uses: docker/setup-buildx-action@v3.4.0
         with:
           version: latest
 
@@ -131,7 +131,7 @@ jobs:
 
       - name: Build and push
         id: docker-build
-        uses: docker/build-push-action@v6.2.0
+        uses: docker/build-push-action@v6.3.0
         with:
           push: true
           builder: ${{ steps.buildx.outputs.name }}
